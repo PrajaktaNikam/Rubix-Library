@@ -2,7 +2,7 @@ package com.StudentLibrary.Studentlibrary.Model;
 
 import org.hibernate.annotations.CreationTimestamp;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.Date;
 import java.util.UUID;
 

@@ -1,7 +1,7 @@
 package com.StudentLibrary.Studentlibrary.Model;
-import javax.persistence.*;
-import java.util.List;
 
+import java.util.List;
+import jakarta.persistence.*;
 @Entity
 public class Author {
     @GeneratedValue(strategy = GenerationType.IDENTITY)

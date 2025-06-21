@@ -1,6 +1,5 @@
 package com.StudentLibrary.Studentlibrary;
 
-import com.StudentLibrary.Studentlibrary.Model.*;
 import com.StudentLibrary.Studentlibrary.Repositories.AuthorRepository;
 import com.StudentLibrary.Studentlibrary.Repositories.BookRepository;
 import com.StudentLibrary.Studentlibrary.Repositories.CardRepository;
@@ -10,10 +9,9 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.util.Arrays;
 
 @SpringBootApplication
-public class StudentLibraryApplication implements CommandLineRunner {
+public class RubixLibrary implements CommandLineRunner {
 
 
 
@@ -31,7 +29,7 @@ public class StudentLibraryApplication implements CommandLineRunner {
 	BookRepository bookRepository;
 
 	public static void main(String[] args) {
-		SpringApplication.run(StudentLibraryApplication.class, args);
+		SpringApplication.run(RubixLibrary.class, args);
 	}
 
 	@Override
@@ -58,3 +56,4 @@ public class StudentLibraryApplication implements CommandLineRunner {
 
 	}
 }
+
